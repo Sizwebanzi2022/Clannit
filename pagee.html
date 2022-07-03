@@ -1,0 +1,844 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">	
+<title> pafgge </title>
+<style>
+	.container{
+		border: 1px solid grey;
+		height: 6250px;
+		width: 1400px;
+		margin: auto;
+		
+	}
+	.wrapper{border: 1px solid rgba(44,44,44,1.00);
+		background-color: rgba(255,255,255,1.00);
+		width: 1400px;
+		max-height: 250px;	
+		box-shadow: 5px 5px 10px 1px black;	
+		position: static;
+		
+		}
+		.wrapper h1{
+			position: relative;
+			bottom: 100px;
+			margin-left: 370px;
+			font-family: "Gotham", "Helvetica Neue", Helvetica, Arial, "sans-serif";
+			font-weight: 300;
+		}
+		.wrapper p{
+			position: relative;
+			margin-left: 375px;
+			bottom: 119px;
+			}
+		.wrapper h2{
+			position: relative;
+			margin-left: 375px;
+			bottom: 135px;
+			}
+		.wrapper h3{
+			border: 1px solid green;
+			text-align: center;
+			padding-top: 11px;
+			max-width: 150px;
+			background-color: green;
+			height: 30px;
+			border-radius: 200px;
+			position: relative;
+			bottom: 250px;
+			margin-left: 1150px;
+			
+		}
+		.wrapper a{text-decoration: none;
+		color: white;}
+		.wrapper a:hover{
+			color: rgba(125,168,130,1.00);
+		}
+		.wrapper a:active{
+			color: rgba(12,14,12,1.00);
+		}
+		.boxbtw{
+			background-color: rgba(211,205,205,1.00);
+			color: white;
+			padding: 0px;
+			width: 150px;
+			height: 35px;
+			font-size: 20px;
+			border: none;
+			margin-left: 1150px;
+			position: relative;
+			bottom: 240px;
+			border-radius: 200px;
+			}
+		.boxdown{
+			position: relative;
+			display: inline-block;
+			}
+		.box-content{
+			display: none;
+			position: relative;
+			bottom: 238px;
+			margin-left: 1150px;
+			background-color: #f9f9f9;
+			min-width: 100px;
+			box-shadow:0px 8px 15px 0px rgba(0,0,0,0.2);
+			overflow-y: scroll;
+		}
+		.box-content a{color: black;
+			padding: 3px 3px;
+			text-decoration: none;
+			display: list-item;
+			
+		}
+		.box-content a:hover{
+			background-color: #4F6A87;
+			
+		}
+		.boxdown:hover .box-content{
+			display: block;
+			}
+		.boxdown:hover .boxbtw{background-color: #3E8E41
+		}
+	
+		
+	
+	.imag span{
+		position: relative;
+		top:100px;
+	}
+	.secondboxe h1{
+		font-size: 40px;
+		font-family: sans-serif;
+		font-weight: 100;
+		margin-left: 40px;
+		position: inherit;
+		}
+	.secondboxe img{
+		position:relative;
+	margin-left: 1020px;
+	bottom: 280px;
+	width: 380px;
+	height: 480px;
+	
+	}
+	.secondboxe button{
+		color: white;
+	font-size: 130%;
+	width:290px;
+	height: 80px;
+	border-radius: 120px;
+	background-color:rgba(69,124,60,1.00);
+		position: relative;
+		bottom: 410px;
+		margin-left: 60px;
+		
+	}
+	.secondboxe button:hover{background-color: rgba(155,188,143,1.00);
+	}
+	
+	.secondboxe h2{color: white;
+	border:1px solid rgba(black);
+	background-color: rgba(69,124,60,1.00);	
+	width: 290px;
+	height: 50px;
+	border-radius: 200px;
+	position: relative;
+	padding-top: 30px;
+		text-align: center;
+	bottom: 510px;
+	font-size: 130%	;
+	margin-left:500px;	
+	}
+	.secondboxe h2:hover{
+		background-color:rgba(155,188,143,1.00) ;
+	}
+	span{position: relative;
+		bottom: 480px;
+		
+	}
+	 .image img{
+             height: 500px;
+              width:1400px;
+           }
+	.firstbox h1{
+		font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+		position: relative;
+		bottom: 570px;
+		color: white;
+		margin-left: 100px;
+		font-weight: 200;
+		font-size: 44px;
+		
+		
+		
+		
+	}
+             .firstbox h2{
+            
+             color: white;
+             width:300px;
+             height: fit-content;
+             font-size: 110%;
+			font-weight: 100;	 
+             letter-spacing: 2px;
+             position: relative;
+            bottom:490px;
+            margin-left: 20px;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            padding-left: 15px;
+
+           }
+	.firstbox h3{
+		font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+		position: relative;
+		bottom: 440px;
+		margin-left: 100px;
+		font-weight: 200;
+		font-size: 44px;
+		
+		
+		
+		
+	}
+           .secondbox h1{
+             
+             color:rgb(255, 255, 255);
+             width:300px;
+             height: fit-content;
+             font-size: 110%;
+			   font-weight: 100;
+             letter-spacing: 2px;
+             position: relative;
+             bottom: 830px;
+             margin-left:535px;
+             font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+             
+           }
+
+           .happening h1{
+           
+             color:rgb(255, 255, 255);
+             width:300px;
+             height: fit-content;
+             font-size: 110%;
+			   font-weight: 100;
+             letter-spacing: 2px;
+             position: relative;
+             bottom: 270px;
+             margin-left:1000px;
+             font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+             
+           }
+           
+           .happening h4{
+              
+             color:rgb(25, 22, 22);
+             width:300px;
+             height: fit-content;
+             font-size: 120%;
+			   font-weight: 100;
+             letter-spacing: 2px;
+             position: absolute;
+             font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+             margin-left: 40px;
+             
+
+          
+           }
+          .happening h5{
+           
+             width:300px;
+             height: fit-content;
+             font-size: 120%;
+			  font-weight: 100;
+             font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+             position: absolute;
+             letter-spacing: 2px;
+             margin-left: 520px;
+             
+             
+
+          }
+          .happening h6{
+             color:rgb(25, 22, 22);
+             width:300px;
+             height: fit-content;
+             font-size: 120%;
+			  font-weight: 100;
+             font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+             position: absolute;
+             margin-left: 1000px;
+             letter-spacing: 2px;
+             bottom: 440px;
+
+          }
+	.son img{position: relative;
+	bottom: 790px;
+	}
+	 .launch{position: relative;
+           bottom: 1400px;
+            margin-left: 80px;
+
+    }
+    .launch h1{
+        font-size: 52px;
+        padding-top:15%;
+
+    }
+    .launch p{
+        font-size: 25px;
+ font-family:roboto,sans-serif;
+}
+.why{position:relative;
+    height: 400px;
+    width: 105%;
+    margin-left: 0px;
+
+}
+.full{position: relative;
+    top:100px;
+    margin-left:1000px;
+    font-size: 20px;
+
+}
+.full b{
+    text-decoration:underline;}
+.unit{
+    position: relative;
+    top:-138px;
+    margin-left:600px;
+    font-size: 20px;
+}
+.usd{position: relative;
+    top:-400px;
+    margin-left:100px;
+    font-size: 20px;
+}
+
+
+
+    .son{
+
+        height:450px;
+        background-color:rgba(250,250,250,255);
+    }
+    .pic{
+        margin-left:832px;
+        width: 50%;
+		position: relative;
+		bottom: 1px;
+
+    }
+    .wrap{
+        color: black;
+        background-color: white;
+        height: 700px;
+        width: 100%;
+        border: none;
+       border-color: black;
+    
+    }
+    .wrap h1{
+        margin-left:230px;
+      
+    }
+    .wrap table,th,td{
+        border-color: white;
+        border-spacing: 40px;
+        margin-left: 150px;
+    
+}
+
+.wrap td,th{
+    padding-top: 50px;
+    text-align: center;
+    width: 400px;
+    height: 100px;
+    font-size: larger;
+    font-family: sans-serif;
+}
+   
+   .wrap th{
+
+       background-color:#dedede;
+
+   }
+   .wrap td{
+
+      background-color:  #dedede;
+   }
+   .wrap tr{
+       
+       height: 1px;
+       width: 200%;
+   }
+   .ted{
+       color: black;
+        height: 800px;
+        width: 100%;
+        border: none;
+       border-color: black;
+       font-family:var(--font_8);
+       font-size: 24px;
+ }
+ .news{
+     font-size:52px;
+     margin-left: 200px;
+
+
+
+ 
+    }
+.ted p{
+    margin-left: 200px;
+}
+ .ted h2{
+     border:none;
+     border-radius: 30px;
+
+ }
+ .ted h3{
+    font-size: larger;
+     margin-left: 200px;
+ }
+ .ted h4{
+     font: size 20px;
+     font: var(--font_8);
+     margin-left: 200px;
+     
+     
+ }
+ .bed button{
+    color: black;
+    border-radius: 250px;
+    height: 50px;
+    width: 200px;
+    margin-left: 200px;
+	 background-color: white
+ }
+.bed button:hover{ background-color:black;
+	color: white;}
+ .edd button{
+    border-radius: 250px;
+	 color: black;
+    height: 50px;
+    width: 200px;
+    margin-left: 200px;
+	 background-color: white
+}
+	.edd button:hover{
+		background-color: black;
+		color: white;
+	}
+.faq{  color: black;
+        height: 100px;
+        width: 100%;
+        border: none;
+       border-color: black;
+       font-family:var(--font_8);
+       font-size: 70px;
+       text-align: center;
+}
+.faa{color: black;
+        
+        height: 150px;
+        width: 100%;
+        border: none;
+       border-color: black;
+       font-family:var(--font_8);
+       font-size: 20px;
+       text-align: left;
+       }
+.faa h1{
+    font-size: 30px;
+    text-align: left;
+    margin-left: 200px;
+}
+
+.faa p{
+    text-align: left;
+    margin-left: 200px;
+    padding-bottom: 0px;
+    font-style: italic;
+}
+.fab{
+    color: black;
+        
+        height: 140px;
+        width: 100%;
+        border: none;
+       border-color: black;
+       font-family:var(--font_8);
+       font-size: 20px;
+
+}
+.fab h1{
+    font-size: 30px;
+    text-align: left;
+    margin-left: 200px;
+
+}
+.fab p{
+    text-align: left;
+    margin-left: 200px;
+    padding-bottom:0px;
+    font-style: italic;
+}
+.fac{color: black;
+        height: 150px;
+        width: 100%;
+        border: none;
+       font-family:var(--font_8);
+       font-size: 20px;
+    }
+    .fac h1{
+        font-size: 30px;
+    text-align: left;
+    margin-left: 200px;
+		overflow:  
+    
+     }
+     .fac p{
+        text-align: left;
+    margin-left: 200px;
+    padding-bottom:0px;
+    font-style: italic;
+
+     }
+     .fan{color:black;
+        height: 70px;
+        width: 100%;
+        border: none;
+       font-family:var(--font_8);
+       font-size: 20px;
+
+     }
+     .fan h1{
+        font-size: 30px;
+    text-align: left;
+    margin-left: 200px;
+}
+    .fan p{text-align: left;
+    margin-left: 200px;
+    padding-bottom:0px;
+    font-style: italic;
+
+    }
+    .fig{ position: relative;
+        background-color: black;
+		top: 90px;
+        height: 350px;
+        width: 100%;
+        border: none;
+       font-family:var(--font_8);
+       font-size: 50px;
+       color: white;
+
+    }
+     .fad h1{
+         font-size:47px;
+		 margin-left: 205px;
+		 font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+		 font-weight: 100;
+		 letter-spacing: 0.15em;
+			 
+     }
+     .fae button{
+    position: relative;
+    bottom: 10px;
+    border-radius: 250px;
+    height: 55px;
+    width: 370px;
+    margin-left: 10px;
+    background-color:#407C51;
+    margin-left: 200px;
+    color: white;
+    font-size: large;
+
+
+     }
+     button:hover{
+         background-color: rgba(59,209,155,255);
+     }
+     .faf{
+        position: absolute;
+        top:2600px;
+        background-color: white;
+        height: 20px;
+        width: 100%;
+        border: none;
+       font-family:var(--font_8);
+       font-size: 23px;
+       color: black;
+       text-align: center;
+    
+       
+
+     }
+     .fag{position: relative;
+        padding-top: -180px;
+        height: 10px;
+        margin-left: 800px;
+        font-size: 15px;
+     }
+    .fai{position: relative;
+        padding-top: -180px;
+        height: 10px;
+        margin-left:-100px;
+        font-size: 15px;
+
+    }
+
+    .fai h1{
+       padding-top: -100px;
+    }
+    
+     .faf{position:relative;
+         top: 360px;
+        height: 100px;
+        border:none;
+        margin-left:0px;
+        font-size:15px;
+     }
+     .faf img{
+         margin-left: -70px;
+     }
+     .log{
+         position: relative;
+         margin-left: -600px;
+     }
+	.footer img{
+		position: relative;
+		top: 100px;
+		margin-left: 15%;
+		}
+	.footer h1{
+		position: relative;
+    top: 60px;
+    font-size: medium;
+font-weight: normal;
+margin-left: 60%;}
+.footer p{
+    margin-left: 15%;
+	position: relative;
+	top:110px;
+		}
+	@media only screen and (max-width:600px){
+		.container{max-width: inherit;}
+		}
+	
+
+          
+
+	</style>
+</head>
+
+<body>
+	<div class="container">
+		<div class="wrapper">
+	<img style="margin-left: 80px" src="Screenshot 2022-06-01 at 6.48.29 PM.png" width="207" height="88px" alt="logo">
+	<h1> Defend Ukraine Together</h1>
+		<p>by:<a style="text-decoration: underline;color: black" href="savelifein.ua">Savelife.in.ua</a></p>
+	<h2> 068 500 88 00</h2>
+	<h3><a href="donate.html">Donate</a></h3>	
+	<div class="boxdown">
+		<button class="boxbtw">English</button>
+		<div class="box-content">
+		<a href="#">english</a>
+		<a href="#">chinese</a>
+		<a href="#">german</a>
+		<a href="#">spanish</a>
+			
+		</div>
+		</div>
+		
+		</div>
+	
+		<div class="secondboxe">
+			<h1>Russia has invaded Ukraine – the Shield of<br> Europe. As we are protecting the World against<br> the tyranny, it’s high time to demonstrate your<br> support of peace and democracy in Ukraine and<br> around the world. </h1>
+			<img src="arm.webp">
+			<button><a href="donate.html">Donate</a>  </button>
+			<h2><a href="#">Contact us &#8594; </a></h2>
+		</div>
+	<span class="image">
+          <img  style="filter:brightness(20%)"  src="https://static.wixstatic.com/media/dc8857_c5a061845a954419b2cd6894c64e4c28~mv2.jpeg/v1/fill/w_1050,h_381,al_c,q_85,enc_auto/dc8857_c5a061845a954419b2cd6894c64e4c28~mv2.jpeg" >
+          
+        <div class="happening">
+
+<h1><hr style="width:300px;"><br>Russia will keep on going until stopped by a substantial military resistance. </h1>
+
+<h4><hr style="width:300px;">Ukraine is the Shield of Europe. We are convinced that threat to freedom anywhere means threat to freedom all around the world.<br></h4>
+<h5><hr style="width:300px;">We protect the values shared with Europe and rest of the World. We do everything possible to prevent putinist values spreading around the world even beyond our borders. Our Army is strong and determined but it lacks necessary equipment.<br></h5>
+<h6><hr style="width:300px;">Our Organization needs your support. We use the funds donated to cover Ukraine’s needs in real time.<br></h6>
+
+        </div>
+      
+        
+        <div class="firstbox">
+  
+          <h1> What’s Happening In Ukraine:</h1>
+          <h2><hr style="width:300px"><br>On February 24th, 2022, Russia began a full-scale invasion of Ukraine. This is the big war in Europe. Putin is using aviation, artillery, and missiles. Cities are being bombed with battles happening across the country. </h2>
+			<h3>Why This Matters to You:</h3>
+         </div>
+         <div class="secondbox">
+
+        <h1><hr style="width:300px;"><br>8 years ago, Russia annexed the Ukrainian territory of Crimea and invaded the Donbas region of Ukraine, and has since intensified efforts to destabilize Ukraine​.​ </h1>
+
+         </div>
+     </span>
+		<div class="son">
+			<img src="bridge.jpg" height="700px" width="1400px">
+    <div class="pic">
+       <img src="https://i.ibb.co/KNrT9n4/pic.png" alt="pic" height="450px" width="570px">
+    </div>
+              
+      <div class="launch">
+          <h1 style="font-weight:bold;">Who We Are</h1>
+          <p>Launched in 2014, Come Back Alive became the<br> biggest organization providing support to the<br>Armed Forces of Ukraine.</p>
+          
+          </div>
+
+
+
+
+  </div>
+  <div class="why">
+        <div class="full">
+        <a href="https://imgbb.com/"><img src="https://i.ibb.co/bX1j9Zb/Screenshot-2022-06-06-at-4-30-58-AM.png" alt="Screenshot-2022-06-06-at-4-30-58-AM" height="120px" width="200px" ></a><br>
+        <p> Full transparency and open financial<br> reporting. The foundation has open<br><b>reporting</b></p>
+            
+        </div>
+        <div class="unit">
+            <img src="https://i.ibb.co/KXHYTnQ/Screenshot-2022-06-06-at-4-48-13-AM.png" alt="Screenshot-2022-06-06-at-4-48-13-AM" height="120px" width="200px"><br>  <br>
+            <p>Around 100 military units of the Armed<br>Forces of Ukraine supported</p>
+        </div>
+        <div class="usd">
+            <img src="https://i.ibb.co/Jxg2D3n/Screenshot-2022-06-06-at-4-02-12-AM.png" alt="Screenshot-2022-06-06-at-4-02-12-AM" height="120px" width="200px" ><br> <br>
+            <br>
+            <p>Over USD 20 mln donations from 50 <br> countries were received.</p>
+        </div>
+
+    </div>
+<div class="wrap">
+<table>
+ <h1>TEAM</h1>   
+<tr>
+    <th>
+        Volcmyr Zelensky<br>
+       <small> President</small><hr>
+    </th>
+    <th>Dvoretska Viktoriia<br>
+      <small>  Head of veterans department<br>
+     Vetran of the Russian-Ukraine war.<hr>
+    </small>
+    </th>
+    <th>Taras Chmut<br>
+       <small> Director Veteran of the R-U <br>
+        War,Marine,analyst founder<hr>
+    </small>
+    </th>
+</tr>
+
+    <tr>
+        <td><b>Andriy Rymaruk</b><br>
+            Head of veterans department.<br>
+            Veteran of the Russian-Ukraine War<hr>
+        </td>
+        <td><b>Oleksiy Novikov</b><br>
+            Creative Director<hr>
+        </td>
+        <td><b>Ivan Naurmenko</b><br>
+            Head of the Analaytical Department<hr>
+        </td>
+        
+
+
+
+    </tr>
+    <tr>
+         <td><b>Olga Omelyanchuk</b><br>
+            Head of Communications Department<hr>
+        </td>
+     <td><b>Lesya Melnik</b><br>
+      Head of the Financial department<hr>
+     </td>
+        <td><b>Maksym Zinchuk</b><br>
+            Operational Manager<hr>
+        </td>
+    </tr>
+
+
+    
+
+
+</table>
+	</div>
+    
+
+    <div class="ted">
+        <div style="font-family: Gotham, 'Helvetica Neue', Helvetica, Arial, 'sans-serif'" class="news">LATEST NEWS</div>
+		<br>
+		<br>
+        <div class="bed"><button>Save life in U.A</button><br><br></div>
+        <div class="edd"><button>mil.in.ukraine</button></div>
+		<br>
+        <p style="font-size: 18px;font-weight: 200">«Ukrainian Military Center» Public Organization</p>
+    
+        <h3> How Come Back Alive Helps</h3>
+        <h4>
+        Our fund supports the Armed Forces of Ukraine through financing purely defence initiatives.<br> 
+        Since 2014 we have provided around 1000 thermal imagers and over 250 UAVs. In addition to<br> 
+        the material support, we increased technological capabilities of the Army through providing <br>
+        1,500 tablets with Armor software aimed at stopping the artillery. Come Back Alive also <br>
+        organizes trainings to equip our military with crucial skills. In 2015 we launched trainings for <br>
+        medical workers, artillerists, snipers, minesweepers, and defence analysts. After coming back<br>
+        from the front line, our military members have access to sport rehabilitation and veteran.<br>
+        business opportunities.<br> 
+        Our organization does not use funds for purchasing arms. Our mission is limited to supplying<br>
+        technology, trainings, and accouterments to help save lives of Ukrainians and help our warriors <br>
+        defend Ukraine.</h4><hr>
+
+
+    </div>
+    <div class="faq"> Frequently Asked Questions</div>
+ <div class="faa">
+    <h1>The war is already there, is it too late to help?</h1>
+    <p>No, not at all. Ukrainian Army is doing its best to fight the enemy but they need your support.<br>
+    New requests come in every minute.Every dollar matters</p><hr style="width: 999px">
+   </div>
+   <br>
+    <div class="fab"><h1>I don't want to give money to a war. How could I help?</h1>
+   <p>We fully appreciate your position. Our organization is aimed at saving lives, not putting them in danger. We help provide the<br>
+    Ukrainian army with laptops, lights, photo equipment, cables, and maintenance thereof. Our funds and resources are aimed at
+    the Ukrainian servicemen and women<br> in need of medical assistance or rehabilitation. By donating, you contribute to saving
+     their lives.</p><hr style="width:999px">
+	</div>
+    <div class="fac"><h1><br>How are you going to use my donation? I am against funding bombs and arms.</h1>
+   <p> No, we do not spend our funds to purchase lethal equipment. We support purely defence strategies, including medical<br>
+    assistance, accoutrements, and defence analysis.Ukraine is basically on the verge of food scarcity as Russia has blown out most of their greenhouse farms or displaced the farmers .</p><hr style="width: 999px">
+	</div>
+   <div class="fan"><h1><br>Is your organization transparent? Can I see where my funds were used?</h1>
+    <p>Our financial reporting is fully transparent. We at Come Back Alive are proud of our mission and values. You can always contact us to request for it and it would be sent to you </p>
+	</div>
+    <div class="fig">
+    <div class="fad"><h1>Ukraine needs your support. Any donation<br> you provide helps save Ukraine and<br> Ukrainians. </h1></div>
+    <div class="fae">
+		<button><a href="donate.html">Donate</a></button>
+		
+		</div>
+   </div>
+    
+   <div class="footer">
+		
+		<img src="logo.png" height="100px" width="200px" alt="logo">
+	    <p>Ознайомитися з договором оферти можна тут</p>
+       <h1>2022 by <b>www.savelife.in.ua</b> NGO<br>
+        office@savelife.in.ua</h1>
+		
+		</div>
+
+         </div>
+        
+     </body>
+</html>
